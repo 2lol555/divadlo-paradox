@@ -186,20 +186,20 @@ p {
     background: no-repeat;
     text-align: center;
     background-image: url('/img/bg.webp');
-    background-position: bottom, center;
+    background-position: top, center;
     background-attachment: fixed;
     max-height: 850px;
 
 
     img {
-        margin-top: 150px;
+        margin-top: 300px;
         width: 80vw;
         max-width: 600px;
         max-height: 400px;
     }
 }
 .darken{
-    background-color: rgba(0, 0, 0, 0.40);
+    background-color: rgba(0, 0, 0, 0.574);
     width: 100vw;
     height: 100vh;
     max-height: 850px;
