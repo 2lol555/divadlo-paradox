@@ -1,0 +1,56 @@
+body, html {
+	margin: 0;
+}
+
+body {
+	padding: 0 10px;
+	width: 90%;
+	max-width: 760px;
+	margin: auto;
+	color: #222;
+	background-color: rgb(236, 236, 236);
+	font-family: 'Ubuntu', sans-serif;
+	text-align: justify;
+	text-justify: inter-word;
+
+	img{
+		padding-top: 10px;
+		height: 150px;
+	}
+}
+
+a:first-of-type {
+	color: rgb(255, 0, 120);
+	text-decoration: none;
+}
+
+ol {
+	counter-reset: item;
+	line-height: 1.5;
+}
+
+li {
+	display: block;
+	padding-bottom: 10px;
+	padding-top: 20px;
+}
+.main-list ol li{
+	padding-top: 0px;
+	padding-bottom: 10px;
+
+}
+
+li:before {
+	content: counters(item, ".") " ";
+	counter-increment: item;
+}
+
+.main-list>li {
+	font-weight: bold;
+}
+
+@media (max-width: 480px) {
+	ol{
+		padding: 0;
+	}
+}

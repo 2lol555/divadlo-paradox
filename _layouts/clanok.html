@@ -1,0 +1,116 @@
+---
+---
+<!DOCTYPE html>
+<html lang="sk" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>{{page.title}} | ArtBeat Blog</title>
+		<link rel="stylesheet" href="/css/style.css">
+		<link rel="stylesheet" href="/css/clanok.css">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<meta property="og:image" content="http://artbeat.sk{{ page.img }}">
+		<meta property="og:image:type" content="image/png">
+		<meta property="og:image:width" content="1024">
+		<meta property="og:image:height" content="1024">
+
+		{% include fonts.html %}
+
+		<!-- Bootstrap !-->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+		<script src="https://kit.fontawesome.com/0b9d1071cf.js" crossorigin="anonymous"></script>
+
+		{% include icons.html %}
+
+		{% include js_load.html %}
+
+	</head>
+	<body>
+		{% include google_tag_manager_body.html %}
+
+		<header class="navigation-bar">
+			<a href="/blog"><img src="/img/logotext_2.webp" alt="logo" class="logo"></a>
+		</header>
+
+		<div class="squeeze">
+			<main>
+				<article>
+					<header class="post-header">
+						<h1 class="post-title">{{page.title | upcase}}</h1>
+						<!--					<img src="{{ page.img }}" class="">-->
+						<p class="post-meta">
+							Napísal/a <a class="author"><!--<img src="{{ page.author-profile }}" alt="profilová fotka autora" height="50px" style="border-radius: 50%; position: relative; top: 18px; border: #C7025B solid 1px">--> {{page.author}}</a>
+							<time>
+								{% assign m = page.date | date: "%-m" %}
+								{{ page.date | date: "%-d" }}
+								{% case m %}
+								{% when '1' %}Januára
+								{% when '2' %}Februára
+								{% when '3' %}Marca
+								{% when '4' %}Apríla
+								{% when '5' %}Mája
+								{% when '6' %}Júna
+								{% when '7' %}Júla
+								{% when '8' %}Augusta
+								{% when '9' %}Septembra
+								{% when '10' %}Októbra
+								{% when '11' %}Novembra
+								{% when '12' %}Decembra
+								{% endcase %}
+								{{ page.date | date: "%Y" }}
+							</time>
+						</p>
+					</header>
+					<div class="post-content">
+						<p>{{ page.perex }}<p>
+
+						{{ content }}
+
+						<div style="text-align: center;">
+							<!-- Go to www.addthis.com/dashboard to customize your tools -->
+							<div class="addthis_inline_share_toolbox"></div>
+
+							<!-- Go to www.addthis.com/dashboard to customize your tools -->
+							<div class="addthis_relatedposts_inline"></div>
+
+						</div>
+
+
+					</div>
+
+					<!--		TODO: ADD INFO TO FOOTER-->
+					<!--				<footer class="post-footer">-->
+					<!--					<h3>O autorovi</h3>-->
+					<!--					<div class="byline">-->
+					<!--						<a href="#" class="photo">-->
+					<!--							<img src="https://via.placeholder.com/120" height="120" alt="Profilová fotka autora">-->
+					<!--						</a>-->
+					<!--						<h3>-->
+					<!--							<a href="#">Admin Administratívny</a>-->
+					<!--						</h3>-->
+					<!--						<div class="bio">-->
+					<!--							<p>-->
+					<!--								Admin administratívny icing <strong>jelly-o topping</strong> topping donut muffin ice cream I love caramels. <a href="#">Cheesecake candy canes.</a> I love icing. Wafer biscuit jelly beans. Cookie ice cream pastry powder. Sesame snaps sesame snaps brownie dragée chocolate cake. Pudding dessert croissant candy.-->
+					<!--							</p>-->
+					<!--						</div>-->
+
+					<!--					</div>-->
+					<!--				</footer>-->
+				</article>
+			</main>
+
+			<footer class="global-footer">
+				<a href="https://forms.gle/zpBvWoNbLFM87WaF8" style="display: inline-block">Nahlásenie chyby obsahu</a>
+				<br>Made with love
+				&nbsp;
+				&copy; ArtBeat 2021
+			</footer>
+			<!-- Go to www.addthis.com/dashboard to customize your tools -->
+			<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5ff7622d884d871b"></script>
+
+		</div>
+		{% include gdpr.html %}
+	</body>
+</html>

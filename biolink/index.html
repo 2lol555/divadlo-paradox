@@ -1,0 +1,110 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="artbeat, art, beat, umenie, občianske, združenie, oz, heart">
+  <meta name="description" content="Oficiálna stránka občianskeho združenia ArtBeat. Uverejňujeme tu rôzne info a novinky o našich aktivitách.">
+  <meta name="author" content="Samuel Polakovič">
+
+  <title>ArtBeat | BioLink</title>
+
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/blog/blog.css">
+
+
+  <!--Icon Data-->
+  {% include icons.html %}
+
+  <!-- FONT AWESOME !-->
+  <script src="https://kit.fontawesome.com/0b9d1071cf.js" crossorigin="anonymous"></script>
+
+  {% include fonts.html %}
+
+  {% include js_load.html %}
+
+  <script>
+    if (navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/webOS/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPod/i) || navigator.userAgent.match(/BlackBerry/i) || navigator.userAgent.match(/Windows Phone/i)) {
+    } else {
+      window.location.assign("http://www.artbeat.sk?utm_source=instagram&utm_medium=referral&utm_campaign=biolink");
+    }
+  </script>
+
+</head>
+<body class="dark-bg">
+
+
+<div class="loader" id="Loader">
+  <div class="loader-inner">
+    <div class="loader-line-wrap">
+      <div class="loader-line"></div>
+    </div>
+    <div class="loader-line-wrap">
+      <div class="loader-line"></div>
+    </div>
+    <div class="loader-line-wrap">
+      <div class="loader-line"></div>
+    </div>
+    <div class="loader-line-wrap">
+      <div class="loader-line"></div>
+    </div>
+    <div class="loader-line-wrap">
+      <div class="loader-line"></div>
+    </div>
+  </div>
+</div>
+
+
+  <script>
+    window.addEventListener("load", function(){
+      const myLoader = document.getElementById("Loader");
+      setTimeout(function() {
+        myLoader.classList.add("opacity0");
+      }, 750);
+
+
+      setTimeout(function() {
+        myLoader.classList.add("hidden");
+      }, 1500);
+
+    })
+
+  </script>
+
+
+  {% include google_tag_manager_body.html %}
+
+  <a href="/index.html"><img id="mainlogo" src="/img/logotext_2.webp"></a>
+  <div id="hero">
+    <div class="blog-or-page">
+      <a class="main-button" href="/">Hlavná stránka</a>
+      <a class="main-button" href="/blog">Blog</a>
+    </div>
+
+    <div class="ig-grid">
+      {% for post in site.posts limit:1 %}
+      <div class="bigpost">
+        <a href="{{ post.url }}">
+          <img src="{{ post.img }}" class="thumbnail" alt="{{ post.title }}">
+        </a>
+      </div>
+      {% endfor %}
+      <div class="group">
+        {% for post in site.posts limit:3 offset:1 %}
+        <a href="{{ post.url }}">
+          <img src="{{ post.img }}" class="thumbnail">
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+    <div>
+      <a class="main-button" href="/blog#archiv">Archív článkov</a>
+    </div>
+  </div>
+
+  {% include footer.html %}
+  {% include gdpr.html %}
+</body>
+</html>
