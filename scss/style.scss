@@ -1,6 +1,6 @@
 //Variables
-$primary-color: rgb(255, 0, 120);
-$secondary-color: #B6E3FE;
+$primary-color: #861721;
+$secondary-color: #feb6b6;
 $heading-font: 'Nunito', sans-serif;
 $body-sans: 'Libre Franklin', sans-serif;
 $dark-color: #1a1a1a;
@@ -183,11 +183,12 @@ p {
 .header {
     width: 100vw;
     height: 100vh;
+    background: no-repeat;
     text-align: center;
     background-image: url('/img/bg.webp');
-    background-position: top, center;
+    background-position: bottom, center;
     background-attachment: fixed;
-    max-height: 750px;
+    max-height: 850px;
 
 
     img {
@@ -195,13 +196,13 @@ p {
         width: 80vw;
         max-width: 600px;
         max-height: 400px;
-}
+    }
 }
 .darken{
     background-color: rgba(0, 0, 0, 0.40);
     width: 100vw;
     height: 100vh;
-    max-height: 750px;
+    max-height: 850px;
 }
 
 
