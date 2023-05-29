@@ -52,6 +52,44 @@ jobs:
           indentWidth: 1
           # Boolean, default `false` if `true` emits comments where CSS was compiled from
           sourceComments: false
+      - name: Sass Build normalize
+        # You may pin to the exact commit or the version.
+        # uses: gha-utilities/sass-build@a890a939b8c2b0778ea706fb091da0f1c6f38f92
+        uses: gha-utilities/sass-build@v0.5.1
+        with:
+          # Relative path(s) to SASS or SCSS file, eg. _scss/main.scss
+          source: scss/normalize.scss
+          # Path(s) compiled CSS should be saved, eg. ~/workspace_sass/assets/css/main.css
+          destination: css/normalize.css
+          # String, either "expanded", "compressed", "nested", "compact"; defaults to "compressed"
+          outputStyle: compressed
+          # Integer and float precision when compiling CSS, eg. `20`
+          precision: 20
+          # String, either "space" or "tab", default "space"
+          indentType: tab
+          # Integer, of tabs/spaces used to indent, eg. `1`
+          indentWidth: 1
+          # Boolean, default `false` if `true` emits comments where CSS was compiled from
+          sourceComments: false
+      - name: Sass Build gdprstyle
+        # You may pin to the exact commit or the version.
+        # uses: gha-utilities/sass-build@a890a939b8c2b0778ea706fb091da0f1c6f38f92
+        uses: gha-utilities/sass-build@v0.5.1
+        with:
+          # Relative path(s) to SASS or SCSS file, eg. _scss/main.scss
+          source: scss/gdprstyle.scss
+          # Path(s) compiled CSS should be saved, eg. ~/workspace_sass/assets/css/main.css
+          destination: css/gdprstyle.css
+          # String, either "expanded", "compressed", "nested", "compact"; defaults to "compressed"
+          outputStyle: compressed
+          # Integer and float precision when compiling CSS, eg. `20`
+          precision: 20
+          # String, either "space" or "tab", default "space"
+          indentType: tab
+          # Integer, of tabs/spaces used to indent, eg. `1`
+          indentWidth: 1
+          # Boolean, default `false` if `true` emits comments where CSS was compiled from
+          sourceComments: false
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@55283cc23133118229fd3f97f9336ee23a179fcf # v1.146.0
