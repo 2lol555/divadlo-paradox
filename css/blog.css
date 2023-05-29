@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  overflow: hidden; }
+
+#blog {
+  padding: 100px 0 0 0;
+  min-height: 90vh; }
+
+.nothing-here {
+  color: #a3a3a3;
+  padding-top: 50px;
+  text-align: center; }
+
+.thumbnail {
+  height: 175px;
+  float: left;
+  margin: 0 10px 5px 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700; }
+
+.prispevok p {
+  margin: 0;
+  width: 100%; }
+
+.prispevok a {
+  color: #861721; }
+
+.prispevok {
+  color: white;
+  background: #212529;
+  padding: 12px;
+  border: #861721 2px solid;
+  border-radius: 10px;
+  margin-bottom: 30px; }
+
+.prispevok img {
+  border: #ffe4f4 2px solid;
+  transition: all ease 0.3s; }
+
+.prispevok img:hover {
+  border: #feb6b6 2px solid;
+  transform: scale(1.04);
+  -webkit-transform: scale(1.04);
+  -moz-transform: scale(1.04);
+  -ms-transform: scale(1.04);
+  -o-transform: scale(1.04); }
+
+.ig-grid {
+  margin: 10px 0 10px; }
+
+.ig-grid img {
+  border: #ffe4f4 2px solid;
+  max-width: 30%;
+  display: inline-block;
+  margin: 0%;
+  transition: all ease 0.3s; }
+
+.ig-grid img:hover {
+  border: #ff328e 2px solid;
+  transform: scale(1.04);
+  -webkit-transform: scale(1.04);
+  -moz-transform: scale(1.04);
+  -ms-transform: scale(1.04);
+  -o-transform: scale(1.04); }
+
+.bigpost img {
+  max-width: 95%;
+  float: none;
+  margin: auto;
+  margin-bottom: 5px; }
+
+.squeeze {
+  width: 80%;
+  margin: auto; }
+
+.autor-info img {
+  border-radius: 50%;
+  border: #ff328e 2px solid;
+  width: 1px; }
+
+.autor-info p {
+  display: inline-block;
+  width: 70%;
+  font-weight: bold;
+  padding-bottom: 30px;
+  padding-left: 10px; }
+
+.metadata {
+  color: #c4c4c4;
+  font-size: 0.9rem;
+  padding-top: 20px;
+  font-weight: 200; }
+
+.archiv {
+  padding: 10px 0 0 0; }
+
+.archiv h6 {
+  display: inline-block;
+  padding: 0; }
+
+.archiv p {
+  display: inline-block;
+  width: auto; }
+
+.archiv a {
+  color: #C7025B; }
+
+.archive-piece {
+  padding: 5px;
+  margin-top: 3px;
+  border-bottom: black dotted 3px; }
+
+.archive-piece:last-of-type {
+  border-bottom: none; }
+
+.archive-piece:hover,
+.archive-piece:focus {
+  transform: scale(1.02);
+  transition: scale 0.3s ease; }
+
+@media (max-width: 991px) {
+  #blog {
+    padding: 160px; }
+
+  .squeeze {
+    width: 100%; }
+
+  h3 {
+    text-align: center; }
+
+  .thumbnail {
+    display: block;
+    max-height: 60vh;
+    max-width: 100%;
+    height: auto;
+    float: none;
+    margin: 0 auto 10px auto; } }
+@media (max-width: 800px) {
+  #blog {
+    padding: 160px 10px 0 10px; } }
+
+/*# sourceMappingURL=blog.css.map */

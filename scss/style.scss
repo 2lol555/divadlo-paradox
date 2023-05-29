@@ -355,11 +355,11 @@ p {
 .footer {
     color: #fff;
     border-top: white 2px solid;
-    background: rgb(1,0,74);
+    background: darken($primary-color, 30);
 
     img{
-        margin: 10px 0 10px 7.9%;
-        height: 133px;
+        margin: 20px 0 20px 7.9%;
+        max-height: 100px;
     }
     p{
         margin: 10px auto -5px;
@@ -502,7 +502,7 @@ p {
     color: white;
     font-size: 1.5rem;
     font-family: $heading-font;
-    border: #f11374 2px solid;
+    border: $primary-color 2px solid;
     border-radius: 10px;
     padding: 4px;
     margin-bottom: 10px;

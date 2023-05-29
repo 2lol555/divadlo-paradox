@@ -1,3 +1,10 @@
+//Variables
+$primary-color: #861721;
+$secondary-color: #feb6b6;
+$heading-font: 'Nunito', sans-serif;
+$body-sans: 'Libre Franklin', sans-serif;
+$dark-color: #1a1a1a;
+
 body{
     margin: 0;
     overflow: hidden;
@@ -31,14 +38,14 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .prispevok a{
-    color: #ff328e;
+    color: $primary-color;
 }
 
 .prispevok{
     color: white;
     background: #212529;
     padding: 12px;
-    border: #ff328e 2px solid;
+    border: $primary-color 2px solid;
     border-radius: 10px;
     margin-bottom: 30px;
 }
@@ -50,7 +57,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .prispevok img:hover{
-    border: #ff328e 2px solid;
+    border: $secondary-color 2px solid;
 
     transform: scale(1.04);
     -webkit-transform: scale(1.04);
