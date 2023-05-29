@@ -307,7 +307,7 @@ p {
     }
 
     a:hover {
-        color: rgb(187, 0, 87);
+        color: lighten($primary-color, 20);
     }
 
     img {
@@ -319,8 +319,11 @@ p {
         margin-bottom: 20px;
         border: $primary-color solid 5px;
     }
-
     transition: all 0.25s ease;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -ms-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
 }
 
 .clen:nth-child(2n){
@@ -402,7 +405,7 @@ p {
     color: rgb(255, 255, 255);
 
     border-radius: 10px;
-    border: $secondary-color 0 solid;
+    border: $primary-color 0 solid;
     padding: 10px;
     background-color: transparentize($color: #000000, $amount: 0.2);
     position: fixed;
@@ -421,7 +424,7 @@ p {
     width: 100%;
     
     em{
-        color: $secondary-color;
+        color: lighten($primary-color, 20);
     }
 }
 
@@ -439,7 +442,7 @@ p {
 }
 
 #consent-popup a {
-    color: $secondary-color;
+    color: lighten($primary-color, 20);
 }
 
 .consent-buttons {
@@ -448,9 +451,9 @@ p {
 
 #suhlas-button {
     margin: 10px 0;
-    background-color: $secondary-color;
-    border-color: aqua;
-    color: $dark-color;
+    background-color: $primary-color;
+    border-color: darken($secondary-color, 30);
+    color: $secondary-color;
 }
 #suhlas-button:focus {
     box-shadow: aqua;
@@ -570,31 +573,31 @@ p {
 .loader-line-wrap:nth-child(5) { animation-delay: -250ms; }
 
 .loader-line-wrap:nth-child(1) .loader-line {
-    border-color: #dc0068;
+    border-color: $primary-color;
     height: 90px;
     width: 90px;
     top: 7px;
 }
 .loader-line-wrap:nth-child(2) .loader-line {
-    border-color: #C7025B;
+    border-color: $primary-color;
     height: 76px;
     width: 76px;
     top: 14px;
 }
 .loader-line-wrap:nth-child(3) .loader-line {
-    border-color: #9b0245;
+    border-color: $primary-color;
     height: 62px;
     width: 62px;
     top: 21px;
 }
 .loader-line-wrap:nth-child(4) .loader-line {
-    border-color: #880242;
+    border-color: $primary-color;
     height: 48px;
     width: 48px;
     top: 28px;
 }
 .loader-line-wrap:nth-child(5) .loader-line {
-    border-color: #750137;
+    border-color: $primary-color;
     height: 34px;
     width: 34px;
     top: 35px;
