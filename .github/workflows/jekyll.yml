@@ -33,15 +33,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Sass Build
+      - name: Sass Build style
         # You may pin to the exact commit or the version.
         # uses: gha-utilities/sass-build@a890a939b8c2b0778ea706fb091da0f1c6f38f92
         uses: gha-utilities/sass-build@v0.5.1
         with:
           # Relative path(s) to SASS or SCSS file, eg. _scss/main.scss
-          source: ./scss
+          source: scss/style.scss
           # Path(s) compiled CSS should be saved, eg. ~/workspace_sass/assets/css/main.css
-          destination: ./css
+          destination: css/style.css
           # String, either "expanded", "compressed", "nested", "compact"; defaults to "compressed"
           outputStyle: compressed
           # Integer and float precision when compiling CSS, eg. `20`
