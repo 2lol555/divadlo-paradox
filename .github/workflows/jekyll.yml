@@ -39,9 +39,9 @@ jobs:
         uses: gha-utilities/sass-build@v0.5.1
         with:
           # Relative path(s) to SASS or SCSS file, eg. _scss/main.scss
-          source: /scss
+          source: ./scss
           # Path(s) compiled CSS should be saved, eg. ~/workspace_sass/assets/css/main.css
-          destination: /css
+          destination: ./css
           # String, either "expanded", "compressed", "nested", "compact"; defaults to "compressed"
           outputStyle: compressed
           # Integer and float precision when compiling CSS, eg. `20`
