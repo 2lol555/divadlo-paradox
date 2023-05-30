@@ -1,1 +1,3 @@
-exclude: [/scss, /img/unused]
+exclude: [/scss, /img/unused, biolink, blog/, .idea/]
+collections:
+  herci:

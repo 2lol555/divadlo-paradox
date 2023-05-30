@@ -645,9 +645,9 @@ p {
         text-align: center;
     }
     .navlink-div{
-        padding: 10px 100px 0 100px;
+        padding: 10px 10px 0 10px;
         a,p{
-            font-size: 1.3rem;
+            font-size: 1rem;
         }
     } 
     .logomain {
@@ -704,10 +704,10 @@ p {
         text-align: center;
     }
     .navlink-div {
-        padding: 5px 40px 0 40px;
+        padding: 5px 20px 0 20px;
     }
     .navlinks {
-        font-size: 0.94rem;
+        font-size: 0.7rem;
         margin: 0 2px 0 2px;
         font-weight: 100;
     }
@@ -789,3 +789,4 @@ p {
 .secondary-color{
     color: $secondary-color;
 }
+
