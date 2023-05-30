@@ -79,12 +79,13 @@
 			</main>
 
 			<footer class="global-footer">
-				<br>&copy; Divadlo Paradox 2021
+				<br>© {{ 'now' | date: "%Y" }} Divadlo Paradox o.z.
 			</footer>
 			<!-- Go to www.addthis.com/dashboard to customize your tools -->
 			<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5ff7622d884d871b"></script>
 
 		</div>
+		{% include footer.html %}
 		{% include gdpr.html %}
 	</body>
 </html>
