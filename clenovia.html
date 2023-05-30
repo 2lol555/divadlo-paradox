@@ -41,17 +41,19 @@
             <h2>Členovia divadla Paradox</h2>
             <h3>Dramaturgický tím</h3>
             {% for post in site.tags.dramaturg %}
-                    <section class="prispevok">
-                        <a href="{{ post.url }}">
-                            <img src="{{ post.img }}" class="thumbnail">
-                        </a>
-                        <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-                        <h5>{{post.perex}}</h5>
-                        <p>{{post.content | truncatewords: 75}}</p>
-                        <a href="{{ post.url }}"><strong>Čítať viac</strong></a>
+            <section class="prispevok">
+                <a href="{{ post.url }}">
+                    <img src="{{ post.img }}" class="thumbnail">
+                </a>
+                <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+                <h5>{{post.perex}}</h5>
+                <p>{{post.content | truncatewords: 60}}</p>
+                <a href="{{ post.url }}"><strong>Čítať viac</strong></a>
 <!--                        <p class="metadata">{{ post.date | date: "%d.%m.%Y" }}</p>-->
-                    </section>
+            </section>
+            <br style="clear: both; height: 0px">
             {% endfor %}
+            <hr style="clear: both">
             <h3>Herci</h3>
             {% for post in site.tags.herec %}
             <section class="prispevok">
@@ -60,10 +62,11 @@
                 </a>
                 <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
                 <h5>{{post.perex}}</h5>
-                <p>{{post.content | truncatewords: 75}}</p>
+                <p>{{post.content | truncatewords: 60}}</p>
                 <a href="{{ post.url }}"><strong>Čítať viac</strong></a>
             </section>
             {% endfor %}
+            <hr style="clear: both">
             <h3>Realizačný tím</h3>
             {% for post in site.tags.iny %}
             <section class="prispevok">
@@ -72,11 +75,10 @@
                 </a>
                 <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
                 <h5>{{post.perex}}</h5>
-                <p>{{post.content | truncatewords: 75}}</p>
+                <p>{{post.content | truncatewords: 60}}</p>
                 <a href="{{ post.url }}"><strong>Čítať viac</strong></a>
             </section>
             {% endfor %}
-            <hr>
         </div>
     </div>
 

@@ -18,7 +18,7 @@
     <!--Stylesheets-->
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/blog.css">
+    <link rel="stylesheet" href="../css/inscenacie.css">
 
     <!-- FONT AWESOME !-->
     <script src="https://kit.fontawesome.com/0b9d1071cf.js" crossorigin="anonymous"></script>
@@ -48,11 +48,15 @@
                         </a>
                         <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
                         <h5>{{post.perex}}</h5>
-                        <p>{{post.content | truncatewords: 59}}</p>
+                        <p><strong>Réžia: </strong>{{ post.reziser }}</p>
+                        <p><strong>Premiéra: </strong> {{ post.premiera }}</p>
+                        <p><strong>Dĺžka: </strong> {{ post.duration }}</p>
+
                         <a href="{{ post.url }}"><strong>Čítať viac</strong></a>
                     </section>
                 {% endunless %}
             {% endfor %}
+            <br style="clear: both; height: 0px">
             <h3>Derniérované</h3>
             {% for post in site.tags.inscenacie %}
             {% if post.tags contains 'dernierovane' %}
