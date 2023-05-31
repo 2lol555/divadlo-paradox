@@ -1,7 +1,7 @@
 ---
 layout: clanok
 title: Evelyn Fazekašová
-img: /img/clenovia/evelyn_fazekasova.jpg
+img: /img/clenovia/evelyn_fazekasova.webp
 perex: Moje umelecké vlohy sa začali prejavovať už keďsonn mala sedem rokov a pokúsila som sa napisaťsvoju prvú knihu.
 tags: herec
 ---

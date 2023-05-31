@@ -1,7 +1,7 @@
 ---
 layout: clanok
 title: Sofia Huršanová
-img: /img/clenovia/sofia_hursanova.jpg
+img: /img/clenovia/sofia_hursanova.webp
 perex: Od malička som bola naklonená k umeniu, či už vo forme kreslenia, tanca alebo herectva. 
 tags: herec
 ---

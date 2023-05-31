@@ -1,7 +1,7 @@
 ---
 layout: clanok
 title: Jana Fujaková
-img: /img/clenovia/jana_fujakova.jpg
+img: /img/clenovia/jana_fujakova.webp
 perex: Hudobníčka tvoriaca pod pseudonymom Džana Klawesowa. 
 tags: herec
 ---

@@ -1,7 +1,7 @@
 ---
 layout: clanok
 title: Roman Haulík
-img: /img/clenovia/roman_haulik.jpg
+img: /img/clenovia/roman_haulik.webp
 perex: Písal sa rok 2022, kedy som jedného letného rána reagoval na výzvu divadla Paradox a prihlásil sa do konkurzu mailom,
 tags: herec
 ---

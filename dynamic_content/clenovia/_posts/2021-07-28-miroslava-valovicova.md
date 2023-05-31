@@ -1,7 +1,7 @@
 ---
 layout: clanok
 title: Miroslava Valovičová 
-img: /img/clenovia/miroslava_valovicova.jpg
+img: /img/clenovia/miroslava_valovicova.webp
 perex: Novozámčanka narodená v Štúrove s východniarskymi koreňmi, nominantka Slovenky roka 2022. 
 tags: herec
 ---

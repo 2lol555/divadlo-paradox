@@ -1,7 +1,7 @@
 ---
 layout: clanok
 title: Martin Stanko
-img: /img/clenovia/martin_stanko.jpg
+img: /img/clenovia/martin_stanko.webp
 perex: Do Divadla Paradox sa narodil divadelným rodičom vo veľmi útlom veku.
 tags: herec
 ---

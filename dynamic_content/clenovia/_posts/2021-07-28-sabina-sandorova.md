@@ -1,7 +1,7 @@
 ---
 layout: clanok
 title: Sabina Šándorová
-img: /img/clenovia/sabina_sandorova.jpg
+img: /img/clenovia/sabina_sandorova.webp
 perex: Narodila som sa v Nových Zámkoch, no prevažnú časť detstva som strávila u babičky vo Veľkých Lovciach.
 tags: herec
 ---

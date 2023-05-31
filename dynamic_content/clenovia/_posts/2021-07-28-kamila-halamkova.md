@@ -1,7 +1,7 @@
 ---
 layout: clanok
 title: Kamila Halámková
-img: /img/clenovia/kamila_halamkova.jpg
+img: /img/clenovia/kamila_halamkova.webp
 perex: Rodáčka z Nových Zámkov, ktorá odjakživa citila, že ju to ťahá k umeniu.
 tags: herec
 ---

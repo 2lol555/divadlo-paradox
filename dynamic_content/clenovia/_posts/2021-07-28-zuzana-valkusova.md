@@ -1,7 +1,7 @@
 ---
 layout: clanok
 title: Zuzana Valkus-Súkeníková
-img: /img/clenovia/zuzana_valkusova.jpg
+img: /img/clenovia/zuzana_valkusova.webp
 perex: O existencii Paradoxu som sa dozvedela v r.2000 a už sa ma nezbavili. 
 tags: herec
 ---

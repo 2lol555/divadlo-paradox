@@ -1,7 +1,7 @@
 ---
 layout: clanok
 title: Peter Červený
-img: /img/clenovia/peter_cerveny.jpg
+img: /img/clenovia/peter_cerveny.webp
 perex: Je rodený Novozámčan. Do divadla Paradox nevstúpil, divadlo Paradox ním vzniklo.
 tags: herec
 ---

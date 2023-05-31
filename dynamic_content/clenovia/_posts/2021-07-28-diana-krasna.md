@@ -1,7 +1,7 @@
 ---
 layout: clanok
 title: Diana Krásna
-img: /img/clenovia/diana_krasna.jpg
+img: /img/clenovia/diana_krasna.webp
 perex: Pochádzam z Nových Zámkov. Už od mala som chodievala na predstavenia paradoxu (ako divák samozrejme) a aj preto ma teší, že som od leta 2022 jeho súčasťou. 
 tags: herec
 ---
