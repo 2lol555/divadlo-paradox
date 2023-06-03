@@ -22,7 +22,12 @@ body {
 
 h1, h2, h3 {
   font-weight: 800;
-  font-family: 'Nunito', sans-serif; }
+  font-family: 'Nunito', sans-serif;
+}
+
+h1{
+  color: #a00044;
+}
 
 a {
   text-decoration: none; }

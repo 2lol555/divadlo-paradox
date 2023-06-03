@@ -2,9 +2,12 @@
 layout: inscenacia
 title: Všetci chceme hlavné postavy
 images:
-- "/img/inscenacie/popcorn/popcorn_3.webp"
-- "/img/inscenacie/popcorn/popcorn_2.webp"
-- "/img/inscenacie/popcorn/popcorn_1.webp"
+- "/img/inscenacie/hlavne-postavy/hlavne-postavy_3.webp"
+- "/img/inscenacie/hlavne-postavy/hlavne-postavy_2.webp"
+- "/img/inscenacie/hlavne-postavy/hlavne-postavy_1.webp"
+- "/img/inscenacie/hlavne-postavy/hlavne-postavy_4.webp"
+- "/img/inscenacie/hlavne-postavy/hlavne-postavy_5.webp"
+
 
 perex: Mladý uchádzač o prijímacie skúšky z herectva Matej požiada slávneho divadelného a filmového herca Gabriela, aby ho na ne pripravoval. Po krátkom naliehaní Gabriel súhlasí a spustí sa sled komických situácií, pri ktorých sa o sebe kadečo dozvedia, preveria svoje herecké schopnosti a divákom poskytnú príležitosť nakuknúť do zákulisia hereckej tvorby.
 
