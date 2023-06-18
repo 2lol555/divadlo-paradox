@@ -15,10 +15,6 @@ reziser: Marek Lupták
 tags: inscenacie
 
 premiera: 2022-5-13
-
-dates:
-  - date: 2022-5-27
-    time: 19:00
 ---
 
 Americká divadelná autorka a aktivistka urobila antropologický výskum, na základe ktorého napísala v roku 1996 poviedkovú knihu Monológy vagíny. Tá bola zložená z autentických výpovedí viacerých žien o tom, ako vnímajú svoje telo, sexualitu, či postavenie v spoločnosti.

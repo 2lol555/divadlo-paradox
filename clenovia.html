@@ -6,8 +6,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="artbeat, art, beat, umenie, občianske, združenie, oz, heart">
-    <meta name="description" content="Oficiálna stránka občianskeho združenia ArtBeat. Uverejňujeme tu rôzne info a novinky o našich aktivitách.">
+    <meta name="keywords" content="divadlo, paradox, členovia, zakladateľ, režiséri, herci, herec, režisér">
+    <meta name="description" content="Zoznam všetkých aktívnych členov v Divadle Paradox">
     <meta name="author" content="Samuel Polakovič">
 
     <title>Divadlo Paradox - Členovia</title>
@@ -28,6 +28,9 @@
 
     <!--js load-->
     {% include js_load.html %}
+
+    {% include icons.html %}
+
 
 </head>
 <body>
@@ -51,8 +54,8 @@
                 <a href="{{ post.url }}"><strong>Čítať viac</strong></a>
 <!--                        <p class="metadata">{{ post.date | date: "%d.%m.%Y" }}</p>-->
             </section>
-            <br style="clear: both; height: 0px">
             {% endfor %}
+            <br style="clear: both; height: 0px">
             <hr style="clear: both">
             <h3>Herci</h3>
             {% for post in site.tags.herec %}
@@ -67,6 +70,7 @@
             </section>
             {% endfor %}
             <hr style="clear: both">
+            <!--
             <h3>Realizačný tím</h3>
             {% for post in site.tags.iny %}
             <section class="prispevok">
@@ -79,6 +83,7 @@
                 <a href="{{ post.url }}"><strong>Čítať viac</strong></a>
             </section>
             {% endfor %}
+            -->
         </div>
     </div>
 
